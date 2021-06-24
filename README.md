@@ -1,0 +1,1 @@
+This is the memo for the google-homepage project.
