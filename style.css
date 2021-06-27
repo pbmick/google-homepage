@@ -1,0 +1,120 @@
+html {
+    font-family: 'Roboto';
+}
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+li.nav {
+    float: right;
+}
+a {
+    display: block;
+    padding: 8px;
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+a:hover {
+    text-decoration: underline;
+}
+.sign-in {
+    background-color: dodgerblue;
+    padding: 7px 40px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.sign-in:hover {
+    background-color: rgb(63, 157, 252);
+    text-decoration: none;
+}
+img.app {
+    display: block;
+    
+}
+img.google {
+    display: block;
+    margin: 200px auto 0;
+    width: 350px;
+}
+img {
+    display: block;
+    width: 23px;
+    margin-left: 10px;
+}
+.container {
+    display: flex;
+    background-color: white;
+    width: auto;
+    max-width: 584px;
+    height: 44px;
+    margin: 0 auto;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+}
+.container:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+.search-icon {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+}
+.searchbar {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    flex: 100%;
+    height: 34px;
+}
+.search {
+    display: flex;
+    flex: 100%;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-size: 16px;
+    margin-top: 5px;
+    height: 34px;
+    border: none;
+}
+div.footer {
+    border-top: solid 1px lightgray;
+    position: fixed;
+    bottom: 0;
+    margin: 0 -9px;
+    padding: 7px 0;
+    width: 100%;
+}
+ul.left-footer {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 15%;
+}
+ul.right-footer {
+    list-style-type: none;
+    margin: 0;
+    padding-right: 15%;
+}
+li.left{
+    float: left;
+}
+li.right {
+    float: right;
+}
+a.footer {
+    display: block;
+    padding: 12px;
+    color: rgb(112, 112, 112);
+    text-decoration: none;
+    font-size: 14px;
+}
